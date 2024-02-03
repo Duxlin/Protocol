@@ -6,7 +6,7 @@
 //GitHub: @DGXeon
 //WhatsApp: +2347082252014
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
-require('./settings')
+
 require('./lib/listmenu')
 const {
     BufferJSON,
@@ -1400,11 +1400,11 @@ fs.writeFileSync('./src/data/role/owner.json', JSON.stringify(owner))
 replygcxeon(`The Numbrr ${ya} Has been deleted from owner list by the owner!!!`)
 break
 case 'listowner': {
-                let teks = '┌──⭓「 *List Owner* 」\n│\n'
+                let teks = '┌──⭓「 *List Owner* 」\n\n'
                 for (let x of owner) {
-                    teks += `│⭔ ${x}\n`
+                    teks += `⭔ ${x}\n`
                 }
-                teks += `│\n└────────────⭓\n\n*Total : ${owner.length}*`
+                teks += `\n└────────────⭓\n\n*Total : ${owner.length}*`
                 replygcxeon(teks)
             }
             break
@@ -2605,17 +2605,17 @@ break
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][1].length}
-│
-│ 
+
+ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][2].length}
-│
-│ 
+
+ 
 └────
 
 Please Type Below
@@ -2638,17 +2638,17 @@ Please Type Below
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 Please Type Below
@@ -2671,17 +2671,17 @@ Please Type Below
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 Please Type Below
@@ -2700,17 +2700,17 @@ teks_vote = `* VOTE *
 *Reason:* ${vote[m.chat][0]}
 
 ┌〔 UPVOTE 〕
-│ 
+ 
 ├ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 ┌〔 DOWNVOTE 〕
-│ 
+ 
 ├ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
-│ 
+ 
 └────
 
 *${prefix}deletevote* - to delete votes
@@ -3265,11 +3265,11 @@ break
                 break
                 //media db
   case 'listbadword':{
-let teks = '┌──⭓「 *VN List* 」\n│\n'
+let teks = '┌──⭓「 *VN List* 」\n\n'
 for (let x of bad) {
-teks += `│⭔ ${x}\n`
+teks += `⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${bad.length}*`
+teks += `\n└────────────⭓\n\n*Totally there are : ${bad.length}*`
 replygcxeon(teks)
 }
 break
@@ -3674,11 +3674,11 @@ replygcxeon(`Success deleting video ${q}`)
 }
 break
 case 'listvideo':{
-let teks = '┌──⭓「 *Video List* 」\n│\n'
+let teks = '┌──⭓「 *Video List* 」\n\n'
 for (let x of VideoXeon) {
-teks += `│⭔ ${x}\n`
+teks += `⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
+teks += `\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3706,11 +3706,11 @@ replygcxeon(`Success deleting image ${q}`)
 }
 break
 case 'listimage':{
-let teks = '┌──⭓「 *Image List* 」\n│\n'
+let teks = '┌──⭓「 *Image List* 」\n\n'
 for (let x of ImageXeon) {
-teks += `│⭔ ${x}\n`
+teks += `⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${ImageXeon.length}*`
+teks += `\n└────────────⭓\n\n*Totally there are : ${ImageXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3738,11 +3738,11 @@ replygcxeon(`Success deleting sticker ${q}`)
 }
 break
 case 'liststicker':{
-let teks = '┌──⭓「 *Sticker List* 」\n│\n'
+let teks = '┌──⭓「 *Sticker List* 」\n\n'
 for (let x of StickerXeon) {
-teks += `│⭔ ${x}\n`
+teks += `⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${StickerXeon.length}*`
+teks += `\n└────────────⭓\n\n*Totally there are : ${StickerXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3809,11 +3809,11 @@ replygcxeon(`Success deleting vn ${q}`)
 }
 break
 case 'listvn':{
-let teks = '┌──⭓「 *VN List* 」\n│\n'
+let teks = '┌──⭓「 *VN List* 」\n\n'
 for (let x of VoiceNoteXeon) {
-teks += `│⭔ ${x}\n`
+teks += `⭔ ${x}\n`
 }
-teks += `│\n└────────────⭓\n\n*Totally there are : ${VoiceNoteXeon.length}*`
+teks += `\n└────────────⭓\n\n*Totally there are : ${VoiceNoteXeon.length}*`
 replygcxeon(teks)
 }
 break
@@ -3850,11 +3850,11 @@ replygcxeon(`Successfully deleted zip ${teks}`)
 break
 case 'listzip': {
 
-let teksooooo = '┌──⭓「 *ZIP LIST* 」\n│\n'
+let teksooooo = '┌──⭓「 *ZIP LIST* 」\n\n'
 for (let x of ZipXeon) {
-teksooooo += `│⭔ ${x}\n`
+teksooooo += `⭔ ${x}\n`
 }
-teksooooo += `│\n└────────────⭓\n\n*Total : ${ZipXeon.length}*`
+teksooooo += `\n└────────────⭓\n\n*Total : ${ZipXeon.length}*`
 replygcxeon(teksooooo)
 }
 break
@@ -3891,11 +3891,11 @@ replygcxeon(`Successfully deleted Apk ${teks}`)
 break
 case 'listapk': {
 
-let teksoooooo = '┌──⭓「 *APK LIST* 」\n│\n'
+let teksoooooo = '┌──⭓「 *APK LIST* 」\n\n'
 for (let x of ApkXeon) {
-teksoooooo += `│⭔ ${x}\n`
+teksoooooo += `⭔ ${x}\n`
 }
-teksoooooo += `│\n└────────────⭓\n\n*Total : ${ApkXeon.length}`
+teksoooooo += `\n└────────────⭓\n\n*Total : ${ApkXeon.length}`
 replygcxeon(teksoooooo)
 }
 break
@@ -3932,11 +3932,11 @@ replygcxeon(`Successfully deleted pdf ${teks}`)
 break
 case 'listpdf': {
 
-let teksoooo = '┌──⭓「 *PDF LIST* 」\n│\n'
+let teksoooo = '┌──⭓「 *PDF LIST* 」\n\n'
 for (let x of DocXeon) {
-teksoooo += `│⭔ ${x}\n`
+teksoooo += `⭔ ${x}\n`
 }
-teksoooo += `│\n└────────────⭓\n\n*Total : ${DocXeon.length}*`
+teksoooo += `\n└────────────⭓\n\n*Total : ${DocXeon.length}*`
 replygcxeon(teksoooo)
 }
 break
@@ -6594,57 +6594,53 @@ break
             let latensie = speed() - timestampe
             let a = db.data.users[sender]
             let me = m.sender
-            let xmenu_oh = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄${readmore} 
-│└────────────┈ ⳹
-│
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-│𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-│
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-│𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-│𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-│𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-│
-└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗧𝗶𝗺𝗲 : ${xtime}
-│𝗗𝗮𝘁𝗲 : ${xdate}
-└┬───────────────── ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
-┌└─────────────┈ ⳹
-│❏${xprefix}allmenu
-│❏${xprefix}downloadmenu
-│❏${xprefix}funmenu
-│❏${xprefix}aimenu
-│❏${xprefix}groupmenu
-│❏${xprefix}ownermenu
-│❏${xprefix}photooxymenu
-│❏${xprefix}ephoto360menu
-│❏${xprefix}animemenu
-│❏${xprefix}nsfwmenu
-│❏${xprefix}randomphotomenu
-│❏${xprefix}randomvideomenu
-│❏${xprefix}stickermenu
-│❏${xprefix}databasemenu
-│❏${xprefix}stalkermenu
-│❏${xprefix}bugmenu
-│❏${xprefix}othermenu
-└─────────────────┈ ⳹`
+            let xmenu_oh = `┌─☘︎
+ Heyyo Dux Bot Here😌
+➪ ${pushname} 
+☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎
+♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪⳹
+➪𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
+𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+𝗕𝗼𝘁 : ${botname}
+𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
+𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
+𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+
+└☕𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
+𝗡𝗮𝗺𝗲 : ${pushname}
+𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
+𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
+𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
+𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
+
+└✈︎𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
+𝗧𝗶𝗺𝗲 : ${xtime}
+𝗗𝗮𝘁𝗲 : ${xdate}
+☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎⳹
+☁︎  ✑  Please Type The *.MENU*
+☁︎ ✑  Given *BELOW*
+𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌⳹
+➪${xprefix}allmenu
+➪${xprefix}downloadmenu
+➪${xprefix}funmenu
+➪${xprefix}aimenu
+➪${xprefix}groupmenu
+➪${xprefix}ownermenu
+➪${xprefix}photooxymenu
+➪${xprefix}ephoto360menu
+➪${xprefix}animemenu
+➪${xprefix}nsfwmenu
+➪${xprefix}randomphotomenu
+➪${xprefix}randomvideomenu
+➪${xprefix}stickermenu
+➪${xprefix}databasemenu
+➪${xprefix}stalkermenu
+➪${xprefix}bugmenu
+➪${xprefix}othermenu
+ꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥ`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
