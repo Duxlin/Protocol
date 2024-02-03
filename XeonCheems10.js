@@ -6596,51 +6596,45 @@ break
             let me = m.sender
             let xmenu_oh = `┌─☘︎
  Heyyo Dux Bot Here😌
-➪ ${pushname} 
+☯︎➪ ${pushname} 
 ☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎
 ♪♪♪♪♪♪♪♪♪♪♪♪♪♪♪⳹
-➪𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
-𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+☯︎➪𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 𝗕𝗼𝘁 : ${botname}
 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
 𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
 𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-
 └☕𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
 𝗡𝗮𝗺𝗲 : ${pushname}
 𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
 𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
 𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-
-└✈︎𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-𝗧𝗶𝗺𝗲 : ${xtime}
+*└✈︎𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 *
 𝗗𝗮𝘁𝗲 : ${xdate}
-☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎⳹
-☁︎  ✑  Please Type The *.MENU*
+*☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎☘︎⳹*
+☁︎ ✑  Please Type The *.MENU*
 ☁︎ ✑  Given *BELOW*
-𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌⳹
-➪${xprefix}allmenu
-➪${xprefix}downloadmenu
-➪${xprefix}funmenu
-➪${xprefix}aimenu
-➪${xprefix}groupmenu
-➪${xprefix}ownermenu
-➪${xprefix}photooxymenu
-➪${xprefix}ephoto360menu
-➪${xprefix}animemenu
-➪${xprefix}nsfwmenu
-➪${xprefix}randomphotomenu
-➪${xprefix}randomvideomenu
-➪${xprefix}stickermenu
-➪${xprefix}databasemenu
-➪${xprefix}stalkermenu
-➪${xprefix}bugmenu
-➪${xprefix}othermenu
-ꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥ`
+*𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌𖠌⳹*
+☯︎➪${xprefix}allmenu
+☯︎➪${xprefix}downloadmenu
+☯︎➪${xprefix}funmenu
+☯︎➪${xprefix}aimenu
+☯︎➪${xprefix}groupmenu
+☯︎➪${xprefix}ownermenu
+☯︎➪${xprefix}photooxymenu
+☯︎➪${xprefix}ephoto360menu
+☯︎➪${xprefix}animemenu
+☯︎➪${xprefix}nsfwmenu
+☯︎➪${xprefix}randomphotomenu
+☯︎➪${xprefix}randomvideomenu
+☯︎➪${xprefix}stickermenu
+☯︎➪${xprefix}databasemenu
+☯︎➪${xprefix}stalkermenu
+☯︎➪${xprefix}bugmenu
+☯︎➪${xprefix}othermenu
+*ꕥꕥꕥꕥꕥꕥꕥꕥꕥꕥ*`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
