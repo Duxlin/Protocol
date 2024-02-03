@@ -283,9 +283,9 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
 }
         //reply
         async function replygcxeon(teks) {
-            if (typereply === 'Dux') {
+            if (typereply === 'v1') {
                 m.reply(teks)
-            } else if (typereply === 'Dux') {
+            } else if (typereply === 'v2') {
                 XeonBotInc.sendMessage(m.chat, {
                     contextInfo: {
                         externalAdReply: {
