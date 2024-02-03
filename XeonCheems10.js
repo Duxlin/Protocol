@@ -492,7 +492,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                about: {
                   bot: {
                      nick: XeonBotInc.getName(botNumber), 
-                     alias: 𝐃𝐔𝐗-𝙼𝙳
+                     alias: botname
                   },
                   owner: {
                      nick: XeonBotInc.getName(global.ownernumber + '@s.whatsapp.net'), 
