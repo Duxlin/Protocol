@@ -1,6 +1,6 @@
 {
   "users": {
-    "918798308154@s.whatsapp.net": {
+    "2347082252014@s.whatsapp.net": {
       "serialNumber": "0eae1af5145d445f4e7a69739aa2e971",
       "title": "Premium",
       "afkTime": -1,
@@ -11,7 +11,7 @@
       "limit": 1000,
       "totalLimit": 0
     },
-    "919366316018@s.whatsapp.net": {
+    "2349150538944@s.whatsapp.net": {
       "serialNumber": "84a6d900b59ff9b86da982ae409f5973",
       "title": "Premium",
       "afkTime": -1,
@@ -84,7 +84,7 @@
     "math": []
   },
   "settings": {
-    "918798308154@s.whatsapp.net": {
+    "2347082252014@s.whatsapp.net": {
       "totalhit": 49,
       "totalError": 0,
       "online": false,
@@ -101,16 +101,16 @@
       "autotype": false,
       "watermark": {
         "packname": "Sticker By",
-        "author": "🦄드림 가이 Xeon\n\n+916909137213"
+        "author": "Dux\n\n+2347082252014"
       },
       "about": {
         "bot": {
           "nick": "Oke",
-          "alias": "Cheems Bot MD V10"
+          "alias": "Dux Bot MD"
         },
         "owner": {
-          "nick": "+91 69091 37213",
-          "alias": "916909137213"
+          "nick": "+2347082252014",
+          "alias": "+2349167632397"
         }
       }
     }
