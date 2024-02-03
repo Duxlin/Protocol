@@ -6745,7 +6745,7 @@ if (typemenu === 'v1') {
 }
 break
             case 'allmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${allmenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${allmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -6856,7 +6856,7 @@ if (typemenu === 'v1') {
 }
 break
             case 'ownermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${ownermenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${ownermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -6967,7 +6967,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'othermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${othermenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${othermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7078,7 +7078,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'downloadmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${downloadmenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${downloadmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7189,7 +7189,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'groupmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${groupmenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${groupmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7300,7 +7300,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'funmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${funmenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${funmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7411,7 +7411,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'stalkermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stalkermenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${stalkermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7522,7 +7522,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'randomphotomenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randphotomenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${randphotomenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7633,7 +7633,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'randomvideomenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randvideomenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${randvideomenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7744,7 +7744,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'photooxymenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${photooxymenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${photooxymenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7855,7 +7855,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'ephoto360menu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${ephoto360menu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${ephoto360menu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -7966,7 +7966,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'nsfwmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${nsfwmenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${nsfwmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8077,7 +8077,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'animemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${animemenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${animemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8188,7 +8188,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'stickermenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stickermenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${stickermenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8299,7 +8299,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'databasemenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${databasemenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${databasemenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8410,7 +8410,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'aimenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${aimenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${aimenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -8521,7 +8521,7 @@ if (typemenu === 'v1') {
 }
 break
 case 'bugmenu': {
-let xmenu_oh = `Hi ${pushname}${readmore}\n\n${bugmenu(prefix, hituet)}`
+let xmenu_oh = `Heyyo, Dux-MD Here ${pushname}\n\n${bugmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
