@@ -6,7 +6,7 @@
 //GitHub: @DGXeon
 //WhatsApp: +916909137213
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
-const keep_alive = require('./keep_alive.js')
+
 const {
    spawn
 } = require('child_process')
