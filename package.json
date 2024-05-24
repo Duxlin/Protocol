@@ -1,6 +1,6 @@
 {
     "name": "Cheems-Bot-MD",
-    "version": "13.0.0",
+    "version": "11.0.0",
     "description": "Whatsapp Bot By DGXeon",
     "main": "index.js",
     "type": "commonjs",
@@ -10,14 +10,14 @@
         "media": "XeonMedia"
     },
     "scripts": {
+        "code": "node main.js",
         "start": "node index.js"
     },
     "author": "DGXeon",
     "license": "MIT",
     "dependencies": {
-        "@whiskeysockets/baileys": "^6.7.2",
+        "@whiskeysockets/baileys": "^6.6.0",
         "@adiwajshing/keyed-db": "^0.2.4",
-        "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@hapi/boom": "^10.0.1",
         "anime-wallpaper": "^1.0.2",
         "api-dylux": "^1.4.4",
@@ -30,7 +30,6 @@
         "crypto": "^1.0.1",
         "file-type": "^16.5.3",
         "fluent-ffmpeg": "^2.1.2",
-        "fluent-ffmpeg-7": "^2.1.5",
         "form-data": "^4.0.0",
         "fs-extra": "^11.1.1",
         "g-i-s": "^2.1.7",
@@ -44,7 +43,6 @@
         "lodash": "^4.17.21",
         "mal-scraper": "^2.11.4",
         "mathjs": "^11.3.0",
-        "megajs": "^1.1.4",
         "moment-timezone": "^0.5.43",
         "node-cron": "^3.0.0",
         "node-fetch": "^2.6.11",
