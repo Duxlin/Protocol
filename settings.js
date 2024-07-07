@@ -20,10 +20,10 @@ global.botname = '𝙳𝚄𝚇 𝙱𝙾𝚃 MD' //ur bot name
 global.ownernumber = '2347082252014','2349167632397' //ur owner number
 global.ownername = '𝕯𝖚𝖝ఌ︎' //ur owner name
 global.websitex = "https://www.tiktok/@quadhir"
-global.wagc = "https://chat.whatsapp.com/I7xGUI1xYLS3zZtJgUgyry"
+global.wagc = "https://chat.whatsapp.com/IUHUiBNmku78e7jXhKJI3V"
 global.themeemoji = '☺️'
 global.wm = "Dux Bot Inc."
-global.botscript = 'https://chat.whatsapp.com/I7xGUI1xYLS3zZtJgUgyry' //script link
+global.botscript = 'https://chat.whatsapp.com/BZK6e00lnLL5t4aH9NfU4n' //script link
 global.packname = "Sticker By"
 global.author = "Dux\n\n+2347082252014"
 global.creator = "2347082252014@s.whatsapp.net"
@@ -32,11 +32,11 @@ global.premium = ["2347082252014","2349167632397"] // Premium User
 global.hituet = 0
 
 //bot sett
-global.typemenu = 'v2' // menu type 'v1' => 'v12'
+global.typemenu = 'v3' // menu type 'v1' => 'v12'
 global.typereply = 'v2' // reply type 'v1' => 'v4'
 global.autoblocknumber = '92' //set autoblock country code
 global.antiforeignnumber = '91' //set anti foreign number country code
-global.welcome = false //welcome/left in groups
+global.welcome = true //welcome/left in groups
 global.anticall = false //bot blocks user when called
 global.autoswview = false //auto status/story view
 global.adminevent = false //show promote/demote message
